@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ingsuifon/Desktop/myCpp/FileSystem/FileSystem.cpp
+FileSystem.h
+/Users/ingsuifon/Desktop/myCpp/FileSystem/FileSystem.h
+
+/Users/ingsuifon/Desktop/myCpp/FileSystem/FileSystem.h
+common.h
+/Users/ingsuifon/Desktop/myCpp/FileSystem/common.h
+
+/Users/ingsuifon/Desktop/myCpp/FileSystem/common.h
+iostream
+-
+cstdio
+-
+unordered_map
+-
+string
+-
+list
+-
+cstdlib
+-
+fstream
+-
+
